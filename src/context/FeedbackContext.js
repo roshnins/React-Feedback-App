@@ -87,12 +87,12 @@ export const FeedbackProvider = ({ children }) => {
     <FeedbackContext.Provider
       value={{
         feedback,
-        // state that holds item to be edited
+        // State that holds item to be edited
         feedbackEdit,
         isLoading,
         deleteFeedback,
         addFeedback,
-        // function to edit
+        // Function to edit
         editFeedback,
         updateFeedback,
       }}
